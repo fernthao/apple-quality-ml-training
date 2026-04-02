@@ -1,0 +1,39 @@
+\relax 
+\@writefile{toc}{\contentsline {section}{\numberline {1}Goal}{1}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2}Data preprocessing and its impact}{1}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Source and shape.}{1}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Feature scale.}{1}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Impact of scaling by model.}{2}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Class balance.}{2}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Dimensionality reduction.}{2}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Validation strategy.}{2}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3}Models and parameters}{2}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Tuning process and why it works.}{2}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Logistic regression}{2}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Support vector machine}{3}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Runs 1--4 — kernel and $C$ selection.}{3}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Run 5 — polynomial kernel.}{3}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Run 6 — hand-tuned numeric gamma.}{3}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Run 7 — polynomial feature expansion before SVM.}{3}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Run 8 — fine gamma neighbourhood + NuSVC.}{3}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Run 9 — confirm gamma peak.}{3}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Conclusion.}{4}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Decision tree}{4}{}\protected@file@percent }
+\newlabel{sec:dt}{{3.3}{4}{}{subsection.3.3}{}}
+\@writefile{toc}{\contentsline {paragraph}{Run 1 — structural hyperparameters.}{4}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Run 2 — cost-complexity pruning (\texttt  {ccp\_alpha}).}{4}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Run 3 — PCA before decision tree.}{4}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Conclusion.}{4}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4}Final choice and reasoning}{5}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Chosen model.}{5}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Why SVM over logistic regression.}{5}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Why SVM over decision tree.}{5}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Preprocessing choice.}{5}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Hyperparameter tuning strategy.}{5}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Learning curve and train/CV gap.}{5}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Learning curve for \texttt  {SVC(kernel=rbf, C=70, $\gamma $=0.16)}. Shaded bands show $\pm 1$ standard deviation across folds.}}{6}{}\protected@file@percent }
+\newlabel{fig:lc}{{1}{6}{}{figure.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Conclusion}{6}{}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Best 5-fold stratified CV accuracy for each model family.}}{6}{}\protected@file@percent }
+\newlabel{tab:results}{{1}{6}{}{table.1}{}}
+\gdef \@abspage@last{6}
